@@ -30,3 +30,4 @@ def checkio(text):
 if __name__ == '__main__':
     print(checkio("AAaooo!!!!"))
     print(checkio("12giOOnnNee"))
+    print(checkio("1223"))
