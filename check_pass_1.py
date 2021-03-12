@@ -10,6 +10,7 @@ def checkio(data):
     letters = set(data)
     return bool(len(data) >= 10 and upper & letters and lower & letters and digits & letters)
 
+
 if __name__ == '__main__':
     assert checkio('A1213pokl')==False, 'First'
     assert checkio('bAse730onE4+()===') is True, 'Second'
