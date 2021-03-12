@@ -21,5 +21,3 @@ if __name__ == '__main__':
     parser.add_argument('--codec', dest='codec', type=str, default='', required=True)
     args = parser.parse_args()
     convert(args)
-
-
